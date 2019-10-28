@@ -33,8 +33,8 @@ def dijkstra(graph,start,goal):
             break
     path.insert(0,start)
     if s_dis[goal] != infinity:
-        print('Shortest distance is ' + str(s_dis[goal]))
-        print('And the path is ' + str(path))
+        print(str(s_dis[goal]))
+        print(str(path))
  
  
 dijkstra(graph, 'a', 'b')
