@@ -1,4 +1,13 @@
-graph = {'a':{'b':10,'c':3},'b':{'c':1,'d':2},'c':{'b':4,'d':8,'e':2},'d':{'e':7},'e':{'d':9}}
+graph = {"Bmsit1":{"Bmsit3":176,"Bmsit2":124},
+		       "Bmsit2":{"Bmsit1":124,"Bmsit7":70},
+         "Bmsit3":{"Bmsit4":58},
+         "Bmsit4":{"Bmsit5":46,"Bmsit6":54},
+	        "Bmsit5":{"Bmsit4":46},
+         "Bmsit6":{"Bmsit7":176},
+         "Bmsit7":{"Bmsit2":70,"Bmsit8":78},
+         "Bmsit8":{"Bmsit9":130,"Bmsit7":78},
+         "Bmsit9":{"Bmsit10":92,"Bmsit8":130},
+         "Bmsit10":{"Bmsit7":74,"Bmsit8":117}}
  
 def dijkstra(graph,start,goal):
     s_dis= {}
@@ -37,5 +46,5 @@ def dijkstra(graph,start,goal):
         print(str(path))
  
  
-dijkstra(graph, 'a', 'b')
+dijkstra(graph, "Bmsit1, 'Bmsit10')
 
