@@ -1,8 +1,8 @@
 graph = {"Bmsit1":{"Bmsit3":176,"Bmsit2":124},
-		       "Bmsit2":{"Bmsit1":124,"Bmsit7":70},
+	 "Bmsit2":{"Bmsit1":124,"Bmsit7":70},
          "Bmsit3":{"Bmsit4":58},
          "Bmsit4":{"Bmsit5":46,"Bmsit6":54},
-	        "Bmsit5":{"Bmsit4":46},
+	 "Bmsit5":{"Bmsit4":46},
          "Bmsit6":{"Bmsit7":176},
          "Bmsit7":{"Bmsit2":70,"Bmsit8":78},
          "Bmsit8":{"Bmsit9":130,"Bmsit7":78},
@@ -46,5 +46,5 @@ def dijkstra(graph,start,goal):
         print(str(path))
  
  
-dijkstra(graph, "Bmsit1, 'Bmsit10')
+dijkstra(graph, "Bmsit1", "Bmsit10")
 
